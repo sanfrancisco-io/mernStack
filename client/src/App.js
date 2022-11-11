@@ -8,7 +8,7 @@ import Signup from './pages/Signup';
 
 function App() {
     const { user } = useAuthContext();
-    console.log(user);
+
     return (
         <>
             <BrowserRouter>
